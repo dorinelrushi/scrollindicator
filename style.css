@@ -1,0 +1,41 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #111;
+  color: white;
+
+}
+.header{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #1a317e;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.progress{
+  width: 100%;
+  height: 8px;
+  background: rgb(65, 147, 255);
+}
+#bar{
+  
+  height: 8px;
+  background: #ecf000;
+  width: 0%;
+}
+.text{
+  padding: 10px;
+}
+.container{
+  width:900px;
+  margin: 150px auto;
+  font-size: 30px;
+}
